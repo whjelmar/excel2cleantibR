@@ -1,0 +1,16 @@
+Package: excel_to_tibbles
+Type: Package
+Title: Import Excel Sheets as Tidy Tibbles
+Version: 0.1.0
+Authors@R: person("Walter Hjelmar", "walter@hjelmar.com", role = c("aut", "cre"))
+Description: A utility package to read Excel files and transform sheets into tibbles with configurable data cleaning and naming conventions.
+Depends: R (>= 4.0.0)
+Imports:
+    readxl,
+    janitor,
+    zoo,
+    purrr,
+    configr
+License: MIT
+Encoding: UTF-8
+LazyData: true
