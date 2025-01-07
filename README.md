@@ -27,7 +27,7 @@ install.packages("excel2cleantibr")
 ### From GitHub:
 
 ``` r
-devtools::install_github("yourusername/excel2cleantibr")
+devtools::install_github("whjelmar/excel2cleantibr")
 ```
 
 ------------------------------------------------------------------------
